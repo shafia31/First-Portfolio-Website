@@ -13,7 +13,16 @@
   <body>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
-      <header>
+      <section class="firstsection">
+        <div class="leftsection">Hi, My name is<span class="yellow"> Shafia</span> 
+          <div>and I am a passionate</div>
+        <span id="element"></span>
+      </div>
+
+        <div class="rightsection"><img src="girldev.png" alt=""></div>
+
+      </section>
+      <!--<header>
         <div class="content-wrapper">
         <h1 id="name">Shafia Shafique</h1>
         <h2 class="heading2 besideheading2">Front End Web Developer</h2>
@@ -25,8 +34,10 @@
         <p>"A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away"  --<i> Antoine de Saint</i></p>
         </div>
       </header>
+      >
+      
 
-      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+      <!-********************  PROJECTS / PORTFOLIO  ********************* -->
       <section class="Projects-item">
         
 
@@ -187,5 +198,13 @@
         </div>
       </footer>
     </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Front-End Developer', 'Wordpress Content Editor', 'Content Analyst', 'and', 'Committed Learner'],
+      typeSpeed: 50,
+    });
+  </script>
   </body>
 </html>

@@ -114,6 +114,7 @@ h3{
 }
 
 /*first section*/
+
 .firstsection{
        display: flex;
        justify-content: space-around;
@@ -131,6 +132,24 @@ h3{
        color: #fff;
       /* margin: 70px 0;*/
 }
+.leftsection .btn{
+       padding: 20px 0;
+}
+.leftsection .button{
+       padding:12px;
+       background-color:#1e2167 ;
+       color: #fff;
+       border: 2px solid white;
+       border-radius: 6px;
+       font-size: 20px;
+       cursor: pointer;
+}
+.leftsection .button a{
+       text-decoration: none;
+}
+
+
+
 .rightsection img{
       width: 80%;
       margin: 50px 0;
@@ -241,3 +260,25 @@ header{
        display: inline-block;
 }
 
+
+@media screen and (max-width: 800px){
+.firstsection{
+       flex-direction: column-reverse;
+}
+.leftsection{
+       width: 100% !important; 
+       display: flex;
+       flex-direction: column;
+       justify-content:center;
+       align-items: center;
+       font-size: 2rem;
+       
+
+}
+.rightsection img{
+       width: 60vw;
+       margin: 40px -50px;
+       display: flex;
+       justify-content: center;     
+}
+}
